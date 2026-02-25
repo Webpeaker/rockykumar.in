@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
-import SagarHeadshot from '/public/images/sagar-headshot.jpg';
+import SagarHeadshot from '/public/images/rocky.jpeg';
 import SocialIcons from '@/components/data-display/social-icons';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
@@ -27,21 +27,17 @@ const HeroSection = () => {
         <div className="flex max-w-3xl flex-grow flex-col justify-center gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">
           <div className="flex flex-col gap-2">
             <Typography variant="h1">
-              Hi, I&apos;m Sagar{' '}
+              Hi, I&apos;m Rocky Kumar{' '}
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              I&apos;m Rocky Kumar, an Assistant Professor at Poornima University with a deep passion for empowering students through innovative and practical computer science education. With expertise in full-stack development, I specialize in programming languages like C++, ASP.NET, React.js, and database management with SQL.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Ahmedabad, India</Typography>
+              <Typography>Jaipur, India</Typography>
             </div>
 
             <div className="flex items-center gap-2">

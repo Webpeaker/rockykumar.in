@@ -42,12 +42,12 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
+  GITHUB: '',
   GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
   TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  FIGMA: '#',
   FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+    '#',
 };
 
 export const NAV_LINKS = [
